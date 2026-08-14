@@ -61,7 +61,7 @@ export default function ResumeModal({ isOpen, onClose }) {
 
             <div className="flex items-center gap-3">
               <a
-                href="/resume.pdf"
+                href="./resume.pdf"
                 download="Ankit_Raj_Resume.pdf"
                 onClick={triggerDownload}
                 className="flex items-center gap-2 px-4 py-2 rounded-xl text-xs font-bold text-slate-900 bg-gradient-to-r from-cyan-400 to-indigo-400 hover:from-cyan-300 hover:to-indigo-300 transition-all shadow-md"
@@ -83,7 +83,7 @@ export default function ResumeModal({ isOpen, onClose }) {
           {/* PDF Viewer Canvas Frame */}
           <div className="p-4 sm:p-6 bg-[#0d121f] flex flex-col items-center justify-center">
             <iframe 
-              src="/resume.pdf#toolbar=0" 
+              src="./resume.pdf#toolbar=0" 
               title="Ankit Raj Resume PDF"
               className="w-full h-[70vh] rounded-xl border border-slate-800 bg-white"
             />
@@ -98,7 +98,7 @@ export default function ResumeModal({ isOpen, onClose }) {
               Close Preview
             </button>
             <a
-              href="/resume.pdf"
+              href="./resume.pdf"
               download="Ankit_Raj_Resume.pdf"
               onClick={triggerDownload}
               className="flex items-center gap-2 px-4 py-2 rounded-xl text-xs font-bold text-slate-900 bg-cyan-400 hover:bg-cyan-300 transition-colors"

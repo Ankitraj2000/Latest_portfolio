@@ -17,7 +17,7 @@ import confetti from 'canvas-confetti';
 import { personalInfo } from '../data/portfolioData';
 
 export default function Hero() {
-  const [imgSrc, setImgSrc] = useState('/ankit_profile.png');
+  const [imgSrc, setImgSrc] = useState('./ankit_profile.png');
 
   const triggerConfetti = () => {
     confetti({
@@ -98,7 +98,7 @@ export default function Hero() {
               </a>
 
               <a
-                href="/resume.pdf"
+                href="./resume.pdf"
                 download="Ankit_Raj_Resume.pdf"
                 onClick={triggerConfetti}
                 className="flex items-center gap-2 px-5 py-3 rounded-xl text-sm font-semibold text-slate-200 bg-slate-900 hover:bg-slate-800 border border-slate-700 hover:border-cyan-500/50 transition-all hover:-translate-y-0.5"

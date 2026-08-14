@@ -48,7 +48,7 @@ export default function About() {
               {/* Profile Avatar Frame */}
               <div className="w-36 h-44 mx-auto rounded-2xl overflow-hidden border-2 border-cyan-400/80 shadow-lg shadow-cyan-500/20 bg-[#070b14] relative">
                 <img 
-                  src="/ankit_profile.png" 
+                  src="./ankit_profile.png" 
                   alt="Ankit Raj" 
                   className="w-full h-full object-cover object-top"
                 />

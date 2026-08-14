@@ -150,7 +150,7 @@ export default function Navbar({ onOpenResumeModal }) {
 
             {/* Download Resume button */}
             <a
-              href="/resume.pdf"
+              href="./resume.pdf"
               download="Ankit_Raj_Resume.pdf"
               onClick={triggerResumeDownload}
               className="group flex items-center gap-2 px-3.5 py-2 rounded-xl text-xs font-semibold text-slate-200 bg-slate-800/90 hover:bg-slate-700/90 border border-slate-700/80 hover:border-cyan-500/50 transition-all shadow-sm hover:shadow-cyan-500/10"
@@ -171,7 +171,7 @@ export default function Navbar({ onOpenResumeModal }) {
           {/* Mobile Menu Toggle Button */}
           <div className="flex lg:hidden items-center gap-2">
             <a
-              href="/resume.pdf"
+              href="./resume.pdf"
               download="Ankit_Raj_Resume.pdf"
               onClick={triggerResumeDownload}
               className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium text-cyan-300 bg-cyan-950/40 border border-cyan-800/50"
